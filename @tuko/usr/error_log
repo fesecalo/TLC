@@ -1,0 +1,298 @@
+[16-Oct-2019 23:46:08 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:46:08 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:46:08 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:46:08 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:48:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:48:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:48:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:48:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:52:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:52:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:52:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:52:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:52:43 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:52:43 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:52:43 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:52:43 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:52:46 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:52:46 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:52:46 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:52:46 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:53:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:53:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:53:02 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:53:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:54:52 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[16-Oct-2019 23:54:52 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[16-Oct-2019 23:54:52 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:54:59 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:54:59 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:54:59 America/Santiago] PHP Notice:  Undefined index: user_id in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 17
+[16-Oct-2019 23:54:59 America/Santiago] PHP Notice:  Undefined index: user_name in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 35
+[16-Oct-2019 23:54:59 America/Santiago] PHP Notice:  Undefined index: user_tipo in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 38
+[16-Oct-2019 23:54:59 America/Santiago] PHP Fatal error:  Call to a member function fetch_object() on boolean in /home/tlccouriercl/public_html/@tuko/inc/Accion.php on line 139
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined index: YaPara in /home/tlccouriercl/public_html/@tuko/inc/Valida.php on line 11
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:55:24 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:55:24 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:56:12 America/Santiago] PHP Notice:  Undefined property: datos::$usuario in /home/tlccouriercl/public_html/@tuko/usr/modelo/Modelo.php on line 97
+[16-Oct-2019 23:56:12 America/Santiago] PHP Notice:  Undefined index: id in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 70
+[16-Oct-2019 23:56:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[16-Oct-2019 23:56:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[16-Oct-2019 23:56:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:57:00 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:57:00 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:57:00 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:57:00 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:57:00 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:57:00 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:57:00 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:57:20 America/Santiago] PHP Notice:  Undefined property: datos::$usuario in /home/tlccouriercl/public_html/@tuko/usr/modelo/Modelo.php on line 97
+[16-Oct-2019 23:57:20 America/Santiago] PHP Notice:  Undefined index: id in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 70
+[16-Oct-2019 23:57:20 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[16-Oct-2019 23:57:20 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[16-Oct-2019 23:57:20 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:58:01 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:58:01 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:58:01 America/Santiago] PHP Notice:  Undefined index: user_id in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 17
+[16-Oct-2019 23:58:01 America/Santiago] PHP Notice:  Undefined index: user_name in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 35
+[16-Oct-2019 23:58:01 America/Santiago] PHP Notice:  Undefined index: user_tipo in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 38
+[16-Oct-2019 23:58:01 America/Santiago] PHP Fatal error:  Call to a member function fetch_object() on boolean in /home/tlccouriercl/public_html/@tuko/inc/Accion.php on line 139
+[16-Oct-2019 23:58:44 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:58:44 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:58:44 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:58:44 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:58:57 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[16-Oct-2019 23:58:57 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[16-Oct-2019 23:58:57 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:58:57 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[16-Oct-2019 23:59:09 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[16-Oct-2019 23:59:09 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[16-Oct-2019 23:59:09 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[16-Oct-2019 23:59:26 America/Santiago] PHP Notice:  Undefined property: datos::$usuario in /home/tlccouriercl/public_html/@tuko/usr/modelo/Modelo.php on line 97
+[16-Oct-2019 23:59:26 America/Santiago] PHP Notice:  Undefined index: id in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 70
+[16-Oct-2019 23:59:26 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[16-Oct-2019 23:59:26 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[16-Oct-2019 23:59:26 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[17-Oct-2019 00:00:25 America/Santiago] PHP Notice:  Undefined property: datos::$usuario in /home/tlccouriercl/public_html/@tuko/usr/modelo/Modelo.php on line 97
+[17-Oct-2019 00:00:25 America/Santiago] PHP Notice:  Undefined index: id in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 70
+[17-Oct-2019 00:00:25 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[17-Oct-2019 00:00:25 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[17-Oct-2019 00:00:25 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[17-Oct-2019 00:15:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[17-Oct-2019 00:15:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[17-Oct-2019 00:15:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[17-Oct-2019 00:15:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 10:38:19 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 10:38:19 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[18-Oct-2019 10:38:19 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 10:38:19 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 10:38:31 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 10:38:31 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[18-Oct-2019 10:38:31 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 10:38:31 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 10:38:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 10:38:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[18-Oct-2019 10:38:38 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 10:38:38 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 10:38:47 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 10:38:47 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 10:38:47 America/Santiago] PHP Notice:  Undefined index: user_id in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 17
+[18-Oct-2019 10:38:47 America/Santiago] PHP Notice:  Undefined index: user_name in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 35
+[18-Oct-2019 10:38:47 America/Santiago] PHP Notice:  Undefined index: user_tipo in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 38
+[18-Oct-2019 10:38:47 America/Santiago] PHP Fatal error:  Call to a member function fetch_object() on boolean in /home/tlccouriercl/public_html/@tuko/inc/Accion.php on line 139
+[18-Oct-2019 14:46:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 14:46:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[18-Oct-2019 14:46:12 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 14:46:12 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 14:48:55 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 14:48:55 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[18-Oct-2019 14:48:55 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 14:48:55 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[18-Oct-2019 14:49:05 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[18-Oct-2019 14:49:05 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[18-Oct-2019 14:49:05 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[18-Oct-2019 14:51:20 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[18-Oct-2019 14:51:20 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[18-Oct-2019 14:51:20 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[18-Oct-2019 14:51:20 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[18-Oct-2019 14:51:20 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[18-Oct-2019 14:51:20 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[18-Oct-2019 14:51:20 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[12-Nov-2019 12:29:17 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:29:17 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[12-Nov-2019 12:29:17 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[12-Nov-2019 12:29:17 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[12-Nov-2019 12:29:41 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[12-Nov-2019 12:29:41 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[12-Nov-2019 12:29:41 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[12-Nov-2019 12:29:49 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:29:49 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:29:49 America/Santiago] PHP Notice:  Undefined index: user_id in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 17
+[12-Nov-2019 12:29:49 America/Santiago] PHP Notice:  Undefined index: user_name in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 35
+[12-Nov-2019 12:29:49 America/Santiago] PHP Notice:  Undefined index: user_tipo in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 38
+[12-Nov-2019 12:29:49 America/Santiago] PHP Fatal error:  Call to a member function fetch_object() on boolean in /home/tlccouriercl/public_html/@tuko/inc/Accion.php on line 139
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined index: YaPara in /home/tlccouriercl/public_html/@tuko/inc/Valida.php on line 11
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[12-Nov-2019 12:30:02 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[12-Nov-2019 12:30:02 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[12-Nov-2019 12:30:18 America/Santiago] PHP Notice:  Undefined property: datos::$usuario in /home/tlccouriercl/public_html/@tuko/usr/modelo/Modelo.php on line 97
+[12-Nov-2019 12:30:18 America/Santiago] PHP Notice:  Undefined index: id in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 70
+[12-Nov-2019 12:30:18 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 6
+[12-Nov-2019 12:30:18 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 11
+[12-Nov-2019 12:30:18 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[12-Nov-2019 12:30:23 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:30:23 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:30:23 America/Santiago] PHP Notice:  Undefined index: user_id in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 17
+[12-Nov-2019 12:30:23 America/Santiago] PHP Notice:  Undefined index: user_name in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 35
+[12-Nov-2019 12:30:23 America/Santiago] PHP Notice:  Undefined index: user_tipo in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 38
+[12-Nov-2019 12:30:23 America/Santiago] PHP Fatal error:  Call to a member function fetch_object() on boolean in /home/tlccouriercl/public_html/@tuko/inc/Accion.php on line 139
+[12-Nov-2019 12:30:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:30:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[12-Nov-2019 12:30:36 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[12-Nov-2019 12:30:36 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27
+[12-Nov-2019 12:30:48 America/Santiago] PHP Strict Standards:  Non-static method Templeta::cab() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 14
+[12-Nov-2019 12:30:48 America/Santiago] PHP Strict Standards:  Non-static method Templeta::nav() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 15
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined variable: dsh in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 47
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined variable: manifiesto in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 51
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined variable: cliente in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 55
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined variable: origen in /home/tlccouriercl/public_html/@tuko/tpl/nav.php on line 58
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined index: p in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 2
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 79
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/control/Control.php on line 84
+[12-Nov-2019 12:30:48 America/Santiago] PHP Notice:  Undefined index: b in /home/tlccouriercl/public_html/@tuko/usr/vista/Lista_vista.php on line 19
+[12-Nov-2019 12:30:48 America/Santiago] PHP Strict Standards:  Non-static method Templeta::pie() should not be called statically in /home/tlccouriercl/public_html/@tuko/usr/index.php on line 27

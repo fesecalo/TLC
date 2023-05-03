@@ -1,0 +1,83 @@
+<?php error_reporting (E_ERROR);
+error_reporting(E_ALL & ~E_NOTICE & ~E_WARNING);
+
+//-----PARA USAR EN SERVIDOR------------
+
+$sid_db="localhost";
+$usr_db="root";
+$pwd_db="root";
+$db_db = "wp_clovis";
+$conection = mysql_connect($sid_db, $usr_db, $pwd_db);
+mysql_select_db($db_db, $conection) or die('ERROR DE CONECCION');
+
+$datehoy = date('d-m-Y');
+
+$dir_archivos="../archivos/" ;
+$path_archivo="/clovis/archivos/";
+$urllocal = "../webpanel/login.php";
+
+// Valida a los usuarios ingresados en la administracion,
+// Chequea los permisos para entrar a las diferentes secciones.
+
+function valida_usuario($id_usu,$id_sec) {
+		global $conection;
+		$q_validausuario = "SELECT id_usuario, id_secciones from usuarios_permisos where id_usuario='$id_usu' and id_secciones='$id_sec' order by id_usuario";
+		$arr_validausuario = mysql_query($q_validausuario) or die('Error en llamada 37');
+		$numrv = mysql_num_rows($arr_validausuario);
+	   	if ($numrv > 0){
+			return true;
+		}else{
+        return false;
+		}
+	
+};
+
+//Funciones para asignacion y busqueda de permisos para usuarios.
+function busca_permiso_modifica($id_usu,$id_sec) {
+		global $conection;
+		$q_permisomodifica = "SELECT id_usuario, id_secciones from usuarios_permisos where  id_usuario='$id_usu' and id_secciones='$id_sec' and modificar='1' order by id_usuario";
+		$arr_modifica = mysql_query($q_permisomodifica) or die('Error en llamada 37');
+		$numr = mysql_num_rows($arr_modifica);
+	   	if ($numr > 0){
+			return true;
+		}
+        return false;
+};
+function busca_permiso_ingresar($id_usu,$id_sec) {
+		global $conection;
+		$q_permisoingresa = "SELECT id_usuario, id_secciones from usuarios_permisos where  id_usuario='$id_usu' and id_secciones='$id_sec' and ingresar='1' order by id_usuario";
+		$arr_ingresa = mysql_query($q_permisoingresa) or die('Error en llamada 37');
+		$numri = mysql_num_rows($arr_ingresa);
+	   	if ($numri > 0){
+			return true;
+		}
+        return false;
+};
+function busca_permiso_eliminar($id_usu,$id_sec) {
+		global $conection;
+		$q_permisoelimina = "SELECT id_usuario, id_secciones from usuarios_permisos where  id_usuario='$id_usu' and id_secciones='$id_sec' and eliminar='1' order by id_usuario";
+		$arr_eimina = mysql_query($q_permisoelimina) or die('Error en llamada 37');
+		$numre = mysql_num_rows($arr_eimina);
+	   	if ($numre > 0){
+			return true;
+		}
+        return false;
+};
+
+
+
+function comillas($txt)
+{
+  $txt_t="";
+  $l=strlen($txt);
+  for($i=0;$i<$l;$i++)
+  {
+    if(substr($txt,$i,1)=='"')
+      $txt_t=$txt_t."&quot;";
+    else
+      $txt_t=$txt_t.substr($txt,$i,1);
+  }
+  return($txt_t);
+}
+
+?>
