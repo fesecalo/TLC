@@ -1,0 +1,28 @@
+[29-Jun-2022 21:31:28 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 187
+[04-Jul-2022 23:23:09 America/Santiago] PHP Parse error:  syntax error, unexpected '<' in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 277
+[04-Jul-2022 23:40:34 America/Santiago] PHP Parse error:  syntax error, unexpected '.' in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 16
+[04-Jul-2022 23:40:37 America/Santiago] PHP Parse error:  syntax error, unexpected '.' in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 16
+[04-Jul-2022 23:44:44 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php:17) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 31
+[04-Jul-2022 23:44:44 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php:17) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 32
+[04-Jul-2022 23:47:23 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php:17) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 31
+[04-Jul-2022 23:47:23 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php:17) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/gestor_archivos.php on line 32
+[08-Jul-2022 17:35:44 America/Santiago] PHP Warning:  Attempt to modify property of non-object in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 301
+[08-Jul-2022 17:35:44 America/Santiago] PHP Warning:  end() expects parameter 1 to be array, null given in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 301
+[08-Jul-2022 17:37:14 America/Santiago] PHP Warning:  Attempt to modify property of non-object in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 301
+[08-Jul-2022 17:37:14 America/Santiago] PHP Warning:  end() expects parameter 1 to be array, null given in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 301
+[08-Jul-2022 18:42:17 America/Santiago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/subir_comprobante.php on line 70
+[08-Jul-2022 18:42:37 America/Santiago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/tlccourier/public_html/my_tlc/tracking/consolidado/subir_comprobante.php on line 70
+[08-Jul-2022 22:37:14 America/Santiago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php:99
+Stack trace:
+#0 /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php(99): PDOStatement->fetchAll(5)
+#1 /home/tlccourier/public_html/my_tlc/tracking/consolidado/subir_comprobante.php(119): EasyDB->get_results()
+#2 {main}
+  thrown in /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php on line 99
+[08-Jul-2022 22:37:47 America/Santiago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php:99
+Stack trace:
+#0 /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php(99): PDOStatement->fetchAll(5)
+#1 /home/tlccourier/public_html/my_tlc/tracking/consolidado/subir_comprobante.php(119): EasyDB->get_results()
+#2 {main}
+  thrown in /home/tlccourier/public_html/my_tlc/EasyPDO/EasyDB.php on line 99
+[09-Jul-2022 11:23:36 America/Santiago] PHP Warning:  require(/home/tlccourier/public_html/my_tlc/include/include_menu_operador_externo.php): failed to open stream: No such file or directory in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 91
+[09-Jul-2022 11:23:36 America/Santiago] PHP Fatal error:  require(): Failed opening required '/home/tlccourier/public_html/my_tlc/include/include_menu_operador_externo.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/tlccourier/public_html/my_tlc/tracking/consolidado/detalles_consolidado.php on line 91
