@@ -1,0 +1,2 @@
+[04-Aug-2022 18:14:24 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:24 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17701 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48

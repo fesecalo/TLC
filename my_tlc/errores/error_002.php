@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 ?>
 <html>
 	<!-- head -->

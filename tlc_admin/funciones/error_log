@@ -1,0 +1,23 @@
+[02-Aug-2022 17:53:22 America/Santiago] PHP Warning:  Invalid argument supplied for foreach() in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 32
+[02-Aug-2022 17:58:46 America/Santiago] PHP Warning:  Invalid argument supplied for foreach() in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 32
+[02-Aug-2022 18:00:43 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:00:50 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:01:56 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:04:13 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:04:16 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:04:18 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:04:31 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:05:56 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:05:57 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:05:58 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:05:59 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:06:26 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:06:27 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:06:28 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:06:29 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:06:29 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:07:57 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:08:16 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:08:19 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:08:19 America/Santiago] PHP Parse error:  syntax error, unexpected ',' in /home/tlccourier/public_html/tlc_admin/funciones/enviar_correo_iia.php on line 39
+[02-Aug-2022 18:12:30 America/Santiago] PHP Warning:  stream_socket_enable_crypto(): Peer certificate CN=`cp04.iia.cl' did not match expected CN=`mail.tlccourier.cl' in /home/tlccourier/public_html/tlc_admin/PHPMailer-master/class.smtp.php on line 299

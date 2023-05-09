@@ -6,7 +6,7 @@
 			2. descargar
 
 	**************************/
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 
 	$usuario=$_GET["usu"];
 	$id_consolidado=$_GET["cons"];

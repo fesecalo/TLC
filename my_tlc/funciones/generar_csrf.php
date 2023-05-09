@@ -1,6 +1,6 @@
 <?php
 	// DEBAJO DE UN SESION_STAR()
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	include $conf['path_host'].'/funciones/csrf.class.php';
  
 	$csrf = new csrf();

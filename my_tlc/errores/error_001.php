@@ -1,5 +1,5 @@
 <?php
-  require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+  require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

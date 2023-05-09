@@ -1,0 +1,151 @@
+<?php
+	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
+	require $conf['path_host'].'/include/include_sesion.php';
+
+	$id_consolidado=$_GET['id_consolidado'];;
+
+	$db->prepare("SELECT 
+			paquete.id_paquete,
+            paquete.status,
+			paquete.pieza,
+            paquete.proveedor,
+            currier.nombre_currier,
+            paquete.tracking_eu,
+            paquete.tracking_garve,
+            consolidado.codigo_consolidado,
+            usuario.nombre,
+			usuario.apellidos,
+            paquete.id_usuario,
+            paquete.descripcion_producto,
+            paquete.peso,
+            paquete.largo,
+            paquete.ancho,
+            paquete.alto,
+            paquete.valor,
+
+            paquete.id_proveedor,
+
+			proveedor.nombre_proveedor,
+			tipo_paquete.nombre_tipo_paquete
+
+		FROM paquete AS paquete
+		LEFT JOIN gar_usuarios AS usuario ON usuario.id_usuario=paquete.id_usuario
+        INNER JOIN data_currier AS currier ON currier.id_currier=paquete.currier
+        LEFT JOIN consolidado AS consolidado ON consolidado.id_consolidado=paquete.id_consolidado
+        LEFT JOIN data_proveedor AS proveedor ON proveedor.id_proveedor=paquete.id_proveedor
+		LEFT JOIN data_tipo_paquete AS tipo_paquete ON tipo_paquete.id_tipo_paquete=paquete.id_tipo_paquete
+		WHERE paquete.id_consolidado=:id_consolidado
+        GROUP BY paquete.id_paquete
+		ORDER BY paquete.id_paquete DESC
+	");
+	$db->execute(array(':id_consolidado' => $id_consolidado));
+	$sql_paquete=$db->get_results();
+
+?>
+<!DOCTYPE html>
+
+<html lang="es">
+<!-- header con css -->
+<?php require $conf['path_host'].'/include/include_head.php'; ?> 
+<!-- fin header y css -->
+
+<!-- java scripts -->
+<?php require $conf['path_host'].'/include/java_scripts.php'; ?>   
+<!-- fin java scripts-->
+
+<body>
+
+	<!-- menu-->
+	<?php 
+		if($_SESSION['tipo_usuario']==1 || $_SESSION['tipo_usuario']==2){
+			require $conf['path_host'].'/include/include_menu_operador_externo.php'; 
+		}else{
+			die("Su cuenta no tiene los privilegios para ingresar a este sitio. Contacte al administrador.");
+		}
+	?> 
+	<!--menu-->
+
+	<!--Inicio Contenido -->
+	<div id="logo"><h1>Paquetes en consolidado</h1></div>
+
+	<!-- inicio datos cliente -->
+	<?php require $conf['path_host'].'/include/include_datos_usuario.php'; ?> 
+	<!-- Fin datos cliente -->
+
+	<br>
+	<br>
+	<?php if(empty($sql_paquete)){ ?>
+		<center><h2>No tiene paquetes</h2></center>
+	<?php }else{ ?>
+
+	<br>
+	<br>
+
+	<center><h2>Consolidado <?php echo $sql_paquete[0]->codigo_consolidado; ?></h2></center>
+
+	<br>
+	<br>
+
+	<table>
+		<tr>
+			<td>Pcs #</td>
+			<td>Shipper Name:</td>
+			<td>Delivery Company</td>
+			<td>Tracking Number</td>
+			<td>Tracking <?php echo $conf['path_company_name']; ?></td>
+			<td>Nombre del Cliente</td>
+			<td><?php echo $conf['path_cuenta']; ?> Number</td>
+			<td>Tipo de paquete</td>
+			<td>Description/Invoice/Amount</td>
+			<td>Weight(Lb)</td>
+			<td>Length</td>
+			<td>Width</td>
+			<td>Height</td>
+			<td>Valor USD</td>
+		</tr>
+		<tr>
+			<td colspan="17"><hr size="1" color="#FF6600" /></td>
+		</tr>
+		<?php foreach ($sql_paquete as $key => $paquete) {  ?>
+		<tr>
+			<td><?php echo $paquete->pieza; ?></td>
+
+			<?php if($paquete->id_proveedor==0){ ?>
+				<td><?php echo $paquete->proveedor; ?></td>
+			<?php }else{ ?>
+				<td><?php echo $paquete->nombre_proveedor; ?></td>
+			<?php } ?>
+
+			<td><?php echo $paquete->nombre_currier; ?></td>
+			<td><?php echo $paquete->tracking_eu; ?></td>
+			<td><?php echo $paquete->tracking_garve; ?></td>
+			<td><?php echo $paquete->nombre.' '.$paquete->apellidos; ?></td>
+			<td><?php echo $paquete->id_usuario; ?></td>
+			<td><?php echo $paquete->nombre_tipo_paquete; ?></td>
+			<td><?php echo $paquete->descripcion_producto; ?></td>
+			<td><?php echo $paquete->peso/0.45; ?></td>
+			<td><?php echo $paquete->largo; ?></td>
+			<td><?php echo $paquete->ancho; ?></td>
+			<td><?php echo $paquete->alto; ?></td>
+			<td><?php echo $paquete->valor; ?></td>
+		</tr>
+		<tr>
+			<td colspan="17"><hr size="1" color="#FF6600" /></td>
+		</tr>
+		<?php } ?>
+	</table>
+	<?php } ?>
+	<br/>
+	Total de paquetes: <?php echo count($sql_paquete); ?>
+
+	<br>
+	<br>
+
+	<center><a href="<?php echo $conf['path_host_url'] ?>/miami/consolidado/buscar_consolidado/consolidado.php" class="button solid-color">VOLVER</a></center>
+	<br>
+	<br>
+<!-- Fin de contenido -->
+
+</body>
+</html>

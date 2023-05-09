@@ -1,0 +1,5 @@
+[21-Jul-2022 19:24:13 America/Santiago] PHP Parse error:  syntax error, unexpected '}' in /home/tlccourier/public_html/tlc_admin/miami/consolidado/trabajar_consolidado/editar_paquete.php on line 102
+[21-Jul-2022 19:24:25 America/Santiago] PHP Parse error:  syntax error, unexpected '}' in /home/tlccourier/public_html/tlc_admin/miami/consolidado/trabajar_consolidado/editar_paquete.php on line 102
+[06-Aug-2022 22:52:05 America/Santiago] PHP Parse error:  syntax error, unexpected '?>' in /home/tlccourier/public_html/tlc_admin/miami/consolidado/trabajar_consolidado/trabajar_consolidado.php on line 303
+[06-Aug-2022 22:52:26 America/Santiago] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/tlccourier/public_html/tlc_admin/miami/consolidado/trabajar_consolidado/trabajar_consolidado.php on line 303
+[07-Aug-2022 00:46:20 America/Santiago] PHP Parse error:  syntax error, unexpected ')' in /home/tlccourier/public_html/tlc_admin/miami/consolidado/trabajar_consolidado/trabajar_consolidado.php on line 308

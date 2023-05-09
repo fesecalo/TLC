@@ -1,7 +1,7 @@
 <?php 
 	// se inicia sesion
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	include $conf['path_host'].'/conexion.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	include $conf['path_host'].'/include/include_validar_rut.php';

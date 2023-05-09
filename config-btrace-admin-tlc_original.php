@@ -31,7 +31,7 @@
 	$conf['path_cuenta'] = "TLC-";
 
 	//se utiliza para los include y requiere
-	$conf['path_host'] = $_SERVER['DOCUMENT_ROOT'].'/tlc_admin';
+	$conf['path_host'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/tlc_admin';
 
 	//se utiliza para direccionar en los href y src al modulo de clientes
 	$conf['path_host_url_my_btrace'] = 'https://'.$_SERVER['SERVER_NAME'].'/my_tlc';
@@ -43,17 +43,17 @@
 	$conf['path_host_img'] = 'https://'.$_SERVER['SERVER_NAME'].'/tlc_admin/img';
 
 	//path_files administrador
-	$conf['path_files_factura'] = $_SERVER['DOCUMENT_ROOT']."/my_tlc/archivos_prealerta";
+	$conf['path_files_factura'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/my_tlc/archivos_prealerta";
 
 	// path_files con ruta para comprobantes de pagos
-	$conf['path_files_caja'] = $_SERVER['DOCUMENT_ROOT']."/tlc_admin/servicio_cliente/caja/archivos_comprobantes/";
+	$conf['path_files_caja'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/tlc_admin/servicio_cliente/caja/archivos_comprobantes/";
 
 	// path_files con ruta para recibos de dinero
-	$conf['path_files_comprobante'] = $_SERVER['DOCUMENT_ROOT']."/tlc_admin/servicio_cliente/caja/recibo_dinero";
+	$conf['path_files_comprobante'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/tlc_admin/servicio_cliente/caja/recibo_dinero";
 
 	//path_files facturas para generar zip
-	$conf['path_files_factura_zip'] = $_SERVER['DOCUMENT_ROOT']."/tlc_admin/santiago/santiago-operaciones/manifiesto/manifiesto/facturas";
+	$conf['path_files_factura_zip'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/tlc_admin/santiago/santiago-operaciones/manifiesto/manifiesto/facturas";
 	
 	//path_files facturas para generar zip eshopex
-	$conf['path_files_factura_zip_eshopex'] = $_SERVER['DOCUMENT_ROOT']."/tlc_admin/santiago/santiago-eshopex/manifiesto/manifiesto/facturas";
+	$conf['path_files_factura_zip_eshopex'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/tlc_admin/santiago/santiago-eshopex/manifiesto/manifiesto/facturas";
 ?>

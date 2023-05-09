@@ -1,6 +1,6 @@
 <?php
 
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	include $conf['path_host'].'/conexion.php';
 	$idRegion=$_POST['idRegion'];
 	$idComunaSelected=$_POST['idComunaSelected'];

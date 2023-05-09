@@ -1,0 +1,22 @@
+[04-Aug-2022 18:14:27 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:27 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17733 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:32 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:32 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17816 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:32 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[04-Aug-2022 18:14:32 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:32 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17817 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:32 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[04-Aug-2022 18:14:35 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:35 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17825 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:35 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[04-Aug-2022 18:14:38 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:38 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17833 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:38 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[04-Aug-2022 18:14:48 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:48 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17861 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:55 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:55 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17882 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:55 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[04-Aug-2022 18:14:55 America/Santiago] PHP Warning:  PDO::__construct(): MySQL server has gone away in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:55 America/Santiago] PHP Warning:  PDO::__construct(): Error while reading greeting packet. PID=17884 in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 48
+[04-Aug-2022 18:14:55 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63

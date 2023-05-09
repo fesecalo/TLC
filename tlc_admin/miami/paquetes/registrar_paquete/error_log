@@ -1,0 +1,6 @@
+[27-Apr-2022 19:22:18 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home/tlccourier/public_html/tlc_admin/miami/paquetes/registrar_paquete/registrar_paquete.php on line 442
+[27-Apr-2022 19:23:57 America/Santiago] PHP Parse error:  syntax error, unexpected end of file in /home/tlccourier/public_html/tlc_admin/miami/paquetes/registrar_paquete/registrar_paquete.php on line 442
+[28-Apr-2022 12:00:48 America/Santiago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[26-May-2022 13:14:53 America/Santiago] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[01-Jul-2022 13:54:51 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63
+[11-Jul-2022 17:07:24 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63

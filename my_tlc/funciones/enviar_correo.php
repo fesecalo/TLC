@@ -8,6 +8,10 @@
 	function enviarCorreo($direccion_destinatario,$asunto,$contenido){
 		//require_once '/home/tlccouri/public_html/tlc_admin/PHPMailer-master/PHPMailerAutoload.php';
 
+		var_dump($direccion_destinatario,$asunto,$contenido);
+
+		exit;
+
 		$mail = new PHPMailer;
 
         $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;

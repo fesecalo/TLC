@@ -1,0 +1,1 @@
+<?phpinclude_once("../lib/conf.php");session_start(); session_unset();session_destroy();echo "<script languaje='javascript'>";echo "top.frames.location.replace('../webpanel/login.php')";			  echo "</script>";			  ?>

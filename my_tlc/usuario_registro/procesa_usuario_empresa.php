@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	
 	// validacion con csrf tiene que ir despues de la funcion session_start()

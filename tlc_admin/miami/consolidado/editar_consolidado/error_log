@@ -1,0 +1,1 @@
+[24-Jun-2022 15:10:22 America/Santiago] PHP Fatal error:  Call to a member function prepare() on null in /home/tlccourier/public_html/tlc_admin/EasyPDO/EasyDB.php on line 63

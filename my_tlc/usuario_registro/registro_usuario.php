@@ -1,7 +1,7 @@
 <?php 
 	// se inicia sesion
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	include $conf['path_host'].'/conexion.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	include $conf['path_host'].'/include/include_validar_rut.php';
@@ -65,103 +65,103 @@
 
 			// validacion de datos al presionar el botonregistrar
 			$("#registrar").click(function(){
-				if($("#nombre").val()==""){
-					alert("Ingrese su nombre.");
-					$("#nombre").focus();
-					return false;
-				}
+				// if($("#nombre").val()==""){
+				// 	alert("Ingrese su nombre.");
+				// 	$("#nombre").focus();
+				// 	return false;
+				// }
 
-				if($("#apellido_p").val()==""){
-					alert("Ingrese sus apellidos.");
-					$("#apellido_p").focus();
-					return false;
-				}
+				// if($("#apellido_p").val()==""){
+				// 	alert("Ingrese sus apellidos.");
+				// 	$("#apellido_p").focus();
+				// 	return false;
+				// }
 
-				if($("#rut").val()==""){
-					alert("Ingrese su rut.");
-					$("#rut").focus();
-					return false;
-				}else{
-					if (validacion_rut($("#rut").val())==2) {
-						return false;
-					}
-				}
+				// if($("#rut").val()==""){
+				// 	alert("Ingrese su rut.");
+				// 	$("#rut").focus();
+				// 	return false;
+				// }else{
+				// 	if (validacion_rut($("#rut").val())==2) {
+				// 		return false;
+				// 	}
+				// }
 				
-				if($("#email").val()==""){
-					alert("Ingrese email.");
-					$("#email").focus();
-					return false;
-				}
+				// if($("#email").val()==""){
+				// 	alert("Ingrese email.");
+				// 	$("#email").focus();
+				// 	return false;
+				// }
 
-				if($("#reemail").val()==""){
-					alert("Debe repetir el email ingresado.");
-					$("#reemail").focus();
-					return false;
-				}
+				// if($("#reemail").val()==""){
+				// 	alert("Debe repetir el email ingresado.");
+				// 	$("#reemail").focus();
+				// 	return false;
+				// }
 
-				if($("#email").val()!=$("#reemail").val()){
-					alert("los emails ingresados no coinciden");
-					$("#email").focus();	
-					return false;
-				}else{
-					if($("#email").val().match(er_correo)==null){
-						alert("Email no valido");
-						$("#email").focus();	
-						return false;
-					}
-				}
+				// if($("#email").val()!=$("#reemail").val()){
+				// 	alert("los emails ingresados no coinciden");
+				// 	$("#email").focus();	
+				// 	return false;
+				// }else{
+				// 	if($("#email").val().match(er_correo)==null){
+				// 		alert("Email no valido");
+				// 		$("#email").focus();	
+				// 		return false;
+				// 	}
+				// }
 
-				if($("#telefono").val()==""){
-					alert("Ingrese su numero de celular.");
-					$("#telefono").focus();
-					return false;
-				}
+				// if($("#telefono").val()==""){
+				// 	alert("Ingrese su numero de celular.");
+				// 	$("#telefono").focus();
+				// 	return false;
+				// }
 
-				if($("#region").val()==0){
-					alert("Seleccione una región.");
-					$("#region").focus();
-					return false;
-				}
+				// if($("#region").val()==0){
+				// 	alert("Seleccione una región.");
+				// 	$("#region").focus();
+				// 	return false;
+				// }
 
-				if($("#comuna").val()==0){
-					alert("Seleccione una comuna.");
-					$("#comuna").focus();
-					return false;
-				}
+				// if($("#comuna").val()==0){
+				// 	alert("Seleccione una comuna.");
+				// 	$("#comuna").focus();
+				// 	return false;
+				// }
 
-				if($("#direccion").val()==""){
-					alert("Ingrese una direccion de entrega.");
-					$("#direccion").focus();
-					return false;
-				}
+				// if($("#direccion").val()==""){
+				// 	alert("Ingrese una direccion de entrega.");
+				// 	$("#direccion").focus();
+				// 	return false;
+				// }
 
-				if($("#pass").val()==""){
-					alert("Ingrese contraseña.");
-					$("#pass").focus();
-					return false;
-				}
+				// if($("#pass").val()==""){
+				// 	alert("Ingrese contraseña.");
+				// 	$("#pass").focus();
+				// 	return false;
+				// }
 
-				if($("#pass2").val()==""){
-					alert("Debe repetir la contraseña.");
-					$("#pass2").focus();
-					return false;
-				}
+				// if($("#pass2").val()==""){
+				// 	alert("Debe repetir la contraseña.");
+				// 	$("#pass2").focus();
+				// 	return false;
+				// }
 
-				if($("#pass").val()!=$("#pass2").val()){
-					alert("Contrase\u00f1as no coinciden");
-					$("#pass").val("");
-					$("#pass2").val("");
-					$("#pass").focus();	
-					return false;
-				}else{
-					if($("#pass").val().match(er_pass)==null){
-						alert("Contrase\u00f1a no v\u00e1lida, debe contener m\u00ednimo 8 caracteres, una letra may\u00fascula, una m\u00faniscula y un n\u00famero.");
-						$("#pass").val("");
-						$("#pass2").val("");
-						$("#pass").focus();	
-						return false;
-					}
-				}
+				// if($("#pass").val()!=$("#pass2").val()){
+				// 	alert("Contrase\u00f1as no coinciden");
+				// 	$("#pass").val("");
+				// 	$("#pass2").val("");
+				// 	$("#pass").focus();	
+				// 	return false;
+				// }else{
+				// 	if($("#pass").val().match(er_pass)==null){
+				// 		alert("Contrase\u00f1a no v\u00e1lida, debe contener m\u00ednimo 8 caracteres, una letra may\u00fascula, una m\u00faniscula y un n\u00famero.");
+				// 		$("#pass").val("");
+				// 		$("#pass2").val("");
+				// 		$("#pass").focus();	
+				// 		return false;
+				// 	}
+				// }
 
 			    if($("#terminos").is(":checked")){
 			        document.registro.submit();
@@ -435,12 +435,8 @@
                                     </div>
                                     <div class="form-group" style="margin-top:40px">
                                         <label class="col-sm-12 checkbox-inline">
-                                          <input 
-                                                class="form-check-input"
-                                                type="checkbox" 
-                                                id="terminos" 
-                                                value="1" >
-                                        <a href="https://tlccourier.cl/my_tlc/include/include_terminos_condiciones.php" style="color:#0045AD;" target="_blank">Acepto los  t&eacute;rminos y condiciones</a>.</label>
+                                        <input class="form-check-input" type="checkbox" id="terminos" value="1" >
+                                       	<a href="https://tlccourier.cl/my_tlc/include/include_terminos_condiciones.php" style="color:#0045AD;" target="_blank">Acepto los  t&eacute;rminos y condiciones</a>.</label>
                                       </div>
             					</div>
             					

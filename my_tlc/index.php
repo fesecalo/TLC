@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	require $conf['path_host'].'/funciones/generar_csrf.php'; //agregar input hidden en form para enviar el token
 
 	if (isset($_SESSION['numero_cliente'])) {

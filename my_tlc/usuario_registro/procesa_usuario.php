@@ -1,7 +1,7 @@
 <?php
 
 	session_start();
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	
 	// validacion con csrf tiene que ir despues de la funcion session_start()
@@ -127,6 +127,7 @@
 	// fin validacion de datos recibidos
 
 	// Valida que el email ingresado no este registrado
+	var_dump($db);
 	$db->prepare("SELECT * FROM gar_usuarios WHERE email=:correo ");
 	$db->execute(array(':correo' => $email ));
 	$correo = $db -> get_results();
