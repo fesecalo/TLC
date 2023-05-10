@@ -1,14 +1,14 @@
 <?php
 	// DATABASE LOCALHOST
-	//$conf['db_hostname'] = "dbcp05";
-	//$conf['db_name'] = "tlccourier_bd";
-	//$conf['db_username'] = "tlccourier_user";
-	//$conf['db_password'] = "TLCCourrier001!";
+	$conf['db_hostname'] = "localhost";
+	$conf['db_name'] = "tlccouri_sistema_db_local";
+	$conf['db_username'] = "root";
+	$conf['db_password'] = "";
 
-    $conf['db_hostname'] = 'localhost';
-    $conf['db_name'] = 'tlccouri_sistema_db';
-    $conf['db_username'] = 'tlccouri_tlccourier_user';
-    $conf['db_password'] = 'Kl%y*aui7dRreCUr@23u#44$o';
+    // $conf['db_hostname'] = 'localhost';
+    // $conf['db_name'] = 'tlccouri_sistema_db';
+    // $conf['db_username'] = 'tlccouri_tlccourier_user';
+    // $conf['db_password'] = 'Kl%y*aui7dRreCUr@23u#44$o';
 
 	// DATABASE LOCALHOST
 	// $conf['db_hostname'] = "localhost";

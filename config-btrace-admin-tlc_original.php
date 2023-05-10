@@ -1,15 +1,15 @@
 <?php
 	// DATABASE LOCALHOST
-	$conf['db_hostname'] = "dbcp05";
-	$conf['db_name'] = "tlccourier_bd";
-	$conf['db_username'] = "tlccourier_user";
-	$conf['db_password'] = "TLCCourrier001!";
+	// $conf['db_hostname'] = "dbcp05";
+	// $conf['db_name'] = "tlccourier_bd";
+	// $conf['db_username'] = "tlccourier_user";
+	// $conf['db_password'] = "TLCCourrier001!";
 
 	// DATABASE LOCALHOST
-	// $conf['db_hostname'] = "localhost";
-	// $conf['db_name'] = "tlccouriercl_web";
-	// $conf['db_username'] = "root";
-	// $conf['db_password'] = "";
+	$conf['db_hostname'] = "localhost";
+	$conf['db_name'] = "tlccouri_sistema_db_local";
+	$conf['db_username'] = "root";
+	$conf['db_password'] = "";
 
 	//path Nombre Empresa
 	$conf['path_company_name'] = "TLC Courier";
