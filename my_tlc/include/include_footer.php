@@ -6,7 +6,7 @@
         <!--<h2>Nombre empresa</h2>-->
         <h2>
             <img 
-                src="https://tlccourier.cl/2019/img/logo/tlc-3.png" 
+                src="../2019/img/logo/tlc-3.png" 
                 alt="TLCCourier - LO QUIERES LO TRAEMOS" />
             </h2>
       </div>
@@ -20,19 +20,19 @@
             <a 
                 rel="shadowbox" style="color:#FFFFFF " 
                 target="_blank" title="Cont&aacute;ctanos" 
-                href="https://tlccourier.cl/2019/contacto.php#contact">
+                href="../2019/contacto.php#contact">
                   Contáctanos
             </a>
         </p>
 
         <p>
-          <a rel="shadowbox" style="color:#FFFFFF " title="Registro" href="https://tlccourier.cl/my_tlc/usuario_registro/registro_usuario.php" target="_blank">Registro</a>
+          <a rel="shadowbox" style="color:#FFFFFF " title="Registro" href="../my_tlc/usuario_registro/registro_usuario.php" target="_blank">Registro</a>
         </p>
 
         <p>
           <a rel="shadowbox" title="T&eacute;rminos y Condiciones" 
             style="color:#FFFFFF" 
-            href="https://tlccourier.cl/2019/politica.php#about" 
+            href="../2019/politica.php#about" 
             target="_blank">
                 Términos y Condiciones
               </a>
@@ -77,7 +77,7 @@ DORAL<br>
             <b>E-mail:</b> <a href="mailto:ATENCIONALCLIENTE@TLCCOURIER.CL" style="color:#FFFFFF">ATENCIONALCLIENTE@TLCCOURIER.CL</a><br />
     
             <b>Horario de atención:</b> Lunes a Viernes de 9:00 a 19:00 Hrs<br />
-            <a href="https://tlccourier.cl" style="color:#0045ad">
+            <a href=".." style="color:#0045ad">
                 TLCCourier
             </a> -->
         </p>
@@ -96,7 +96,7 @@ DORAL<br>
             <b>E-mail:</b> <a href="mailto:ATENCIONALCLIENTE@TLCCOURIER.CL" style="color:#FFFFFF">ATENCIONALCLIENTE@TLCCOURIER.CL</a><br />
     
             <b>Horario de atención:</b> Lunes a Viernes de 9:00 a 18:00 Hrs<br />
-            <a href="https://tlccourier.cl" style="color:#0045ad">
+            <a href=".." style="color:#0045ad">
                 TLCCourier
             </a> 
         </p>

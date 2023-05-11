@@ -46,7 +46,7 @@
 	        }
         });
 	}
-	//https://tlccourier.cl/tlc_admin/santiago/santiago-operaciones/boletas/descargar-pdf-a-demanda.php?idboleta=351
+	//../tlc_admin/santiago/santiago-operaciones/boletas/descargar-pdf-a-demanda.php?idboleta=351
 
 	
 </script>
@@ -139,7 +139,7 @@
     									
     									<td>
     									    <a 
-        									    href="https://tlccourier.cl/tlc_admin/santiago/santiago-operaciones/boletas/ver-detalle-boleta.php?idBoleta=<?=$paquete->id ?>"
+        									    href="../tlc_admin/santiago/santiago-operaciones/boletas/ver-detalle-boleta.php?idBoleta=<?=$paquete->id ?>"
     									        title='Ver detalle de la transacción' 
     									        class='button solid-color' 
     									        target='_blank'

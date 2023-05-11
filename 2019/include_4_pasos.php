@@ -1,7 +1,7 @@
  <div class="numbers">
                     <div class="container-fluid">
                         <div class="row">
-                            <a href="https://tlccourier.cl/my_tlc/usuario_registro/registro_usuario.php"><div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <a href="../my_tlc/usuario_registro/registro_usuario.php"><div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <img class="thumbs-image" src="img/content/Home-1/banner_thumbnail_2.jpg" alt="te registras" />
                                 <img class="thumbs-icon" src="img/icon15.png" alt=""/>
                                 <!--span class="num">2489</span-->

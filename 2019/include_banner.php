@@ -9,7 +9,7 @@
                                 <h1 class="h1">compra, TRAE O ENV&Iacute;A<br />
  EN UN  SOLO LUGAR</h1>
                                 <!--p>Praesent iaculis ligula eu nulla porttitor, eget imperdiet odio pulvinar. Donec massa arcu fermentum ac urna.</p-->
-                                <a href="https://tlccourier.cl/my_tlc/usuario_registro/registro_usuario.php" class="button"><span>TEN TU CASILLA GRATIS</span></a>
+                                <a href="../my_tlc/usuario_registro/registro_usuario.php" class="button"><span>TEN TU CASILLA GRATIS</span></a>
                             </article>
                         </div>                   
                     </div>

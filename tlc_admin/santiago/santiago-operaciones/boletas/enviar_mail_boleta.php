@@ -167,7 +167,7 @@
         	    $emailCliente=, 
         	    $nroGuia="TLCCONSGrey", 
         	    $tipoFacturaBoleta='Boleta', 
-        	    $pathDescararFacturaOBoleta='https://tlccourier.cl/tlc_admin/santiago/santiago-operaciones/boletas/boletasFiles/TLC10290.pdf',
+        	    $pathDescararFacturaOBoleta='../tlc_admin/santiago/santiago-operaciones/boletas/boletasFiles/TLC10290.pdf',
         	    $tipoPaqueteConsolidado='Paquete'
         	);*/
         	
@@ -264,7 +264,7 @@
                                                                         <p>Equipo TLC Courier.</p>
                                                                         
                                                                         <p>TLC Courier</p>
-                                                                        <a href='https://tlccourier.cl'>www.tlccourier.cl</a>
+                                                                        <a href='..'>www.tlccourier.cl</a>
                                                                     </font>
                                                                 </td>
                                                             </tr>

@@ -135,7 +135,7 @@
                         <p>Acepta que TLC Courier se rige por las regulaciones de seguridad de los EE.UU. &nbsp;a la hora de procesar y preparar material para ser enviado por aire, incluyendo el transporte de Artículos Peligrosos, lo cual podría incurrir en costos adicionales.</p>
                      </li>
                      <li>
-                        <p>No enviar artículos restringidos o prohibidos como los que se incluyen &nbsp;<a href="https://tlccourier.cl/2019/normas">aquí</a>. &nbsp;Esta lista está determinada tanto por las restricciones y regulaciones de los EE.UU. a las exportaciones, como las restricciones y regulaciones a las importaciones de los países destino.</p>
+                        <p>No enviar artículos restringidos o prohibidos como los que se incluyen &nbsp;<a href="../2019/normas">aquí</a>. &nbsp;Esta lista está determinada tanto por las restricciones y regulaciones de los EE.UU. a las exportaciones, como las restricciones y regulaciones a las importaciones de los países destino.</p>
                      </li>
                      <li>
                         <p>Garantizar y pagar cualquier permiso adicional requerido por la legislación sobre las importaciones de artículos específicos, como lo requieran las autoridades locales.</p>
@@ -149,7 +149,7 @@
                   </ul>
                   <p><u><strong>Precios y pago para el Servicio De Procesamiento En Miami (“la dirección en Miami”)</strong></u></p>
                   <p>
-                      TLC Courier ofrece a los Clientes una tabla de precios actualizada &nbsp;<a href="https://tlccourier.cl/tarifas">aquí</a>. &nbsp;
+                      TLC Courier ofrece a los Clientes una tabla de precios actualizada &nbsp;<a href="../tarifas">aquí</a>. &nbsp;
                       TLC Courier se reserva el derecho de modificar sus tarifas cuando sea necesario y sin previo aviso, de acuerdo a las 
                       condiciones del Mercado y los precios de los proveedores.
                   </p>

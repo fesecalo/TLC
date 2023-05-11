@@ -424,7 +424,7 @@
                                                 type="checkbox" 
                                                 id="terminos" 
                                                 value="1" >
-                                        <a href="https://tlccourier.cl/my_tlc/include/include_terminos_condiciones.php" style="color:#0045AD;" target="_blank">Acepto los  t&eacute;rminos y condiciones</a>.</label>
+                                        <a href="../my_tlc/include/include_terminos_condiciones.php" style="color:#0045AD;" target="_blank">Acepto los  t&eacute;rminos y condiciones</a>.</label>
                                       </div>
             					</div>
             					

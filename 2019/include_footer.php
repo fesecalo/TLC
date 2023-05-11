@@ -22,7 +22,7 @@
 
                         <a href="somos.php">Nosotros </a>
 
-                        <a href="https://tlccourier.cl/my_tlc/usuario_registro/registro_usuario.php">REGISTRO</a>
+                        <a href="../my_tlc/usuario_registro/registro_usuario.php">REGISTRO</a>
 
                         <a href="normas.php">Normas y Restricciones</a>
 

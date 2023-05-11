@@ -241,8 +241,8 @@
                                         <tr>
                                             <td colspan='2' align='center'>
 												<font color='#0045AD' face='Arial'>
-													Solicitamos que adjunte a la brevedad su <a href='https://tlccourier.cl/2019/index.php#home' target='_blank'>factura/invoice</a> 
-													al sistema para evitar demoras o retenciones en Aduana. La <a href='https://tlccourier.cl/2019/index.php#home' target='_blank'>factura/invoice</a> 
+													Solicitamos que adjunte a la brevedad su <a href='../2019/index.php#home' target='_blank'>factura/invoice</a> 
+													al sistema para evitar demoras o retenciones en Aduana. La <a href='../2019/index.php#home' target='_blank'>factura/invoice</a> 
 													es un documento que debe indicar:<br><br>
 													• Tienda de compra<br>
 													• Detalle de el o los artículos comprados<br>

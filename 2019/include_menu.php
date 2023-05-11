@@ -38,8 +38,8 @@
        </li>
                 <li><a href="tarifas.php">TARIFAS</a></li>
                 <li><a href="tiendas.php">TIENDAS</a></li>
-                <li><a href="https://tlccourier.cl/my_tlc/usuario_registro/registro_usuario.php" class="act">REG&Iacute;STRATE</a></li>
-                <li><a href="https://tlccourier.cl/my_tlc/index.php" class="act">Login</a></li>
+                <li><a href="../my_tlc/usuario_registro/registro_usuario.php" class="act">REG&Iacute;STRATE</a></li>
+                <li><a href="../my_tlc/index.php" class="act">Login</a></li>
                 <li><a href="contacto.php">CONTACTO</a></li>
                 
                 <!--li class="submeny">
