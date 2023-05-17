@@ -127,7 +127,6 @@
 	// fin validacion de datos recibidos
 
 	// Valida que el email ingresado no este registrado
-	var_dump($db);
 	$db->prepare("SELECT * FROM gar_usuarios WHERE email=:correo ");
 	$db->execute(array(':correo' => $email ));
 	$correo = $db -> get_results();
