@@ -10,11 +10,11 @@ use PHPMailer\PHPMailer\Exception;
 
 
 function enviarCorreo($direccion_destinatario,$asunto,$contenido){
-    
+
     $mail = new PHPMailer();    
-    // $mail->Timeout       =   18; 
-    // $mail->SMTPKeepAlive = true; 
-    $mail->SMTPDebug = 3;
+    $mail->Timeout       =   30; 
+    $mail->SMTPKeepAlive = true; 
+    //$mail->SMTPDebug = 3;
     $mail->IsSMTP();
     $mail->Host = 'mail.tlccourier.cl';
     $mail->SMTPSecure = "ssl";
@@ -45,12 +45,12 @@ function enviarCorreo($direccion_destinatario,$asunto,$contenido){
         }else{
             return true;
         }
+
     } catch (Exception $e) {
      var_dump($e); 
     }
 
     $mail->SmtpClose();
-    
 }
 
 /*

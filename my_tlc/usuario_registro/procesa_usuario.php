@@ -181,7 +181,7 @@
 		array(
 			':pass_usu' => hash('sha256', $pass),
 			':rut_usu' => $rut,
-			':email_usu' => $email,
+			':email_usu' => "pruebaaaaa",
 			':nombre_usu' => $nombre,
 			':apellido_pa' => $apellido_p,
 			':telefono_usu' => $telefono,
