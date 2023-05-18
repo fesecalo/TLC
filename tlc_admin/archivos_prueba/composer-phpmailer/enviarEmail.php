@@ -11,19 +11,31 @@ use PHPMailer\PHPMailer\Exception;
 
 function enviarCorreo($direccion_destinatario,$asunto,$contenido){
 
-    $mail = new PHPMailer();    
-    $mail->Timeout       =   30; 
-    $mail->SMTPKeepAlive = true; 
-    //$mail->SMTPDebug = 3;
-    $mail->IsSMTP();
+    $mail = new PHPMailer();
+    
+    //$mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
+    //$mail->isSMTP();
+    //$mail->Host = 'smtp.mailtrap.io';
+    //$mail->SMTPAuth = true;
+    //$mail->Port = 2525;
+    //$mail->Username = '6f63ad8f7e5d21';
+    //$mail->Password = '5191e7a59285d8';
+    
+    $mail->SMTPDebug = SMTP::DEBUG_LOWLEVEL;
+    $mail->isSMTP();
     $mail->Host = 'mail.tlccourier.cl';
     $mail->SMTPSecure = "ssl";
     $mail->SMTPAuth = true;
     $mail->Port = 465;
+    $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+    //$mail->Username = 'info@tlccourier.cl';
+    //$mail->Password = 'ncrcdmvybxkqgzmx';
     $mail->Username = 'noreply@tlccourier.cl';
     $mail->Password = '[d!x}E(mX1WF';
-    $mail->IsHTML(true);
-
+    
+    
+    $mail->IsHTML(true); // if you are going to send HTML formatted emails
+    //$mail->SingleTo = true; // if you want to send a same email to multiple users. multiple emails will be sent one-by-one.
     
     // Emisor
     $mail->From = "noreply@tlccourier.cl";
@@ -39,18 +51,11 @@ function enviarCorreo($direccion_destinatario,$asunto,$contenido){
     $mail->Subject = utf8_decode($asunto);
     $mail->Body = utf8_decode($contenido);
     
-    try {
-        if(!$mail->Send()){
-            return $mail->ErrorInfo;
-        }else{
-            return true;
-        }
-
-    } catch (Exception $e) {
-     var_dump($e); 
-    }
-
-    $mail->SmtpClose();
+    if(!$mail->Send())
+        return $mail->ErrorInfo;
+    else
+        return true;
+    
 }
 
 /*
