@@ -1,5 +1,5 @@
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	$db_host=$conf['db_hostname'];
 	$db_usuario=$conf['db_username'];
 	$db_password=$conf['db_password'];

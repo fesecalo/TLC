@@ -34,8 +34,8 @@
 	$conf['path_host_img'] = 'https://'.$_SERVER['SERVER_NAME'].'/TLC/my_tlc/img';//se utiliza para importar imagenes
 
 	//path_files administrador
-	$conf['path_files'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/TLC/my_tlc/archivos_prealerta/";
-	$conf['path_files_consolidado'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/TLC/my_tlc/archivos_consolidado/";
+	$conf['path_files'] = $_SERVER['DOCUMENT_ROOT']."/TLC/my_tlc/archivos_prealerta/";
+	$conf['path_files_consolidado'] = $_SERVER['DOCUMENT_ROOT']."/TLC/my_tlc/archivos_consolidado/";
 	
 	$conf['path_host_url_consolidado'] = 'https://'.$_SERVER['SERVER_NAME'].'/TLC/my_tlc/archivos_consolidado'; //se utiliza para direccionar en los href y src
 	

@@ -1,5 +1,5 @@
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	require $conf['path_host'].'/include/include_sesion.php';
 
@@ -227,15 +227,15 @@
 					return false;
 				}
 
-				if($("#peso_kg").val()==""){
+				if($("#libras").val()==""){
 					alert("Ingrese peso en libras, el valor con decimales debe ser ingresado con coma");
-					$("#peso_kg").focus();
+					$("#libras").focus();
 					return false;
 				}
 
-				if($("#peso_kg").val().match(er_numeros2)==null){
+				if($("#libras").val().match(er_numeros2)==null){
 					alert("Solo son permitidos n\u00fameros, si ingresara un decimal separe con punto.");
-					$("#peso_kg").focus().select();
+					$("#libras").focus().select();
 					return false;
 				}
 
@@ -425,15 +425,18 @@
 					<td><input type="text" class="form-control" id="numero_piezas" name="numero_piezas" maxlength="100"></td>
 				</tr>
 				<tr align="left">
-					<td>Peso (Lb)</td>
-					<td><input type="text" class="form-control" id="peso_kg" name="peso_kg" maxlength="100"></td>
+					<td>Peso</td>
+					<td>
+						Libras<input type="text" id="libras" name="libras" maxlength="100">
+						Onzas<input type="text" id="onzas" name="onzas" maxlength="100">
+					</td>
 				</tr>
 				<tr align="left" class="medidas">
 					<td>Medidas (inch)</td>
 					<td>
 						Largo<input type="text" id="largo" name="largo" maxlength="100">
 						Ancho<input type="text" id="ancho" name="ancho" maxlength="100">
-						Alto<input type="text" id="alto" name="alto" maxlength="100"">
+						Alto<input type="text" id="alto" name="alto" maxlength="100">
 					</td>
 				</tr>
 

@@ -1,6 +1,6 @@
 <?php
 // CONEXION A LA BD
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 // header para solucionar problemas con caracteres especiales
 header('Content-Type: text/html; charset=iso-8859-1');

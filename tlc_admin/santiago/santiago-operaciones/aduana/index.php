@@ -1,5 +1,5 @@
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	require $conf['path_host'].'/include/include_sesion.php';
 ?>

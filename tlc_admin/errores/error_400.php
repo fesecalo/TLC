@@ -1,5 +1,5 @@
 <?php
-  require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+  require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">

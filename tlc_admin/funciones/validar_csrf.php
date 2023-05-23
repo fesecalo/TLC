@@ -1,6 +1,6 @@
 <?php
 	// DEBAJO DE UN SESION_STAR()
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	include $conf['path_host'].'/funciones/csrf.class.php';
 	include $conf['path_host'].'/funciones/obtener_ip.php';
 

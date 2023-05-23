@@ -4,7 +4,7 @@
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-    require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+    require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
     require $conf['path_host'].'/../tlc_admin/archivos_prueba/composer-phpmailer/enviarEmail.php';
 
     $nombre="Josse ";

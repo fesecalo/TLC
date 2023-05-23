@@ -39,13 +39,13 @@
 	$conf['path_host'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/tlc_admin';
 
 	//se utiliza para direccionar en los href y src al modulo de clientes
-	$conf['path_host_url_my_btrace'] = 'https://'.$_SERVER['SERVER_NAME'].'/my_tlc';
+	$conf['path_host_url_my_btrace'] = 'https://'.$_SERVER['SERVER_NAME'].'/TLC/my_tlc';
 
 	//se utiliza para direccionar en los href y src al modulo admin
-	$conf['path_host_url'] = 'https://'.$_SERVER['SERVER_NAME'].'/tlc_admin';
+	$conf['path_host_url'] = 'https://'.$_SERVER['SERVER_NAME'].'/TLC/tlc_admin';
 
 	//se utiliza para importar imagenes
-	$conf['path_host_img'] = 'https://'.$_SERVER['SERVER_NAME'].'/tlc_admin/img';
+	$conf['path_host_img'] = 'https://'.$_SERVER['SERVER_NAME'].'/TLC/tlc_admin/img';
 
 	//path_files administrador
 	$conf['path_files_factura'] = $_SERVER['DOCUMENT_ROOT'].'/TLC'."/my_tlc/archivos_prealerta";

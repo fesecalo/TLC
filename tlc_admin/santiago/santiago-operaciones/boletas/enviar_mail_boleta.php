@@ -2,9 +2,9 @@
 
 	session_start();
 	set_time_limit(3600);
-	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 	
 	// validacion con csrf tiene que ir despues de la funcion session_start()
 	//require $conf['path_host'].'/funciones/validar_csrf.php';

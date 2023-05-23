@@ -1,6 +1,6 @@
 <?php
 // function etiqueta_pdf($id){
-    require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+    require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
     require $conf['path_host'].'/fpdf17/fpdf.php';
     require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 

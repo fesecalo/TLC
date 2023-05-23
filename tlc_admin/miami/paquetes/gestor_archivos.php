@@ -6,7 +6,7 @@
 			2. descargar
 
 	**************************/
-	require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
 
 	$usuario=$_GET["usu"];
 	$envio=$_GET["envio"];

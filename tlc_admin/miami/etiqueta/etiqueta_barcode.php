@@ -1,6 +1,6 @@
 <?php
 function barcode($codigo){
-  require $_SERVER['DOCUMENT_ROOT'].'/config-btrace-admin-tlc.php';
+  require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-btrace-admin-tlc.php';
   include('barcode.php');
   
   $fontSize = 10;   // GD1 in px ; GD2 in point
