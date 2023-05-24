@@ -47,10 +47,9 @@
 		$consignatario=$_POST['consignatario'];
 	}
 	// Se ingresan los datos del paquete
-	
 	if ($currier==2) {
-		$preUSPS='42033122';
-		$tracking=$preUSPS.$tracking;
+		//FELIPE: Se agrega prefijo + los últimos 22 números del tracking ingresado.
+		$tracking='4203312219149'.substr($tracking, strlen($tracking) - 21);
 	}
 
 	// se crea el numero de tracking de garve shop
