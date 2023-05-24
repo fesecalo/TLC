@@ -1,5 +1,5 @@
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	require $conf['path_host'].'/include/include_sesion.php';
 
@@ -46,29 +46,11 @@
 	}else{
 		$consignatario=$_POST['consignatario'];
 	}
-
 	// Se ingresan los datos del paquete
+	
 	if ($currier==2) {
-		$tracking='4203312219149'.substr($tracking, strlen($tracking) - 21);
-
-		// if(substr($tracking, 0, 13)=='4203312219149'){
-		// 	$tracking=$tracking;
-		// }
-		// else if(substr($tracking, 0, 12)=='420331221914'){
-		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		// }
-		// else if(substr($tracking, 0, 9)=='420331229'){
-		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		// }
-		// else if(substr($tracking, 0, 8)=='42033122'){
-		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		// }
-		// else if(strlen($tracking)==22){
-		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		// }
-		// else{
-		// 	die("Ocurrio un problema con el numero de tracking ingresado");
-		// }
+		$preUSPS='42033122';
+		$tracking=$preUSPS.$tracking;
 	}
 
 	// se crea el numero de tracking de garve shop

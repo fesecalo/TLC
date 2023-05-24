@@ -1,5 +1,5 @@
 <?php
-	require $_SERVER['DOCUMENT_ROOT'].'/TLC'.'/config-my-tlc.php';
+	require $_SERVER['DOCUMENT_ROOT'].'/config-my-tlc.php';
 	require $conf['path_host'].'/EasyPDO/conexionPDO.php';
 	require $conf['path_host'].'/include/include_sesion.php'; 
 	require $conf['path_host'].'/funciones/generar_csrf.php'; //agregar input hidden en form para enviar el token
@@ -61,14 +61,6 @@
 		var er_lship=/[a-zA-Z0-9]/;
 		// fin validacion solo letras y solo numeros
 		
-		//FELIPE: Valida tracking USPS
-		$("#currier").change(function(){
-		    if($(this).val()==2){
-				$("#tracking").attr("placeholder", "Ingresar tracking sin el prefijo (42033122) o (420331221914)");
-		    } else {
-		    	$("#tracking").attr("placeholder","");
-		    }
-		});
 
 		$("#enviar").click(function(){
 			if($("#consignatario").val()==""){
@@ -107,14 +99,6 @@
 				if($("#tracking").val().match(er_usps)==null){
 					alert("Solo se permiten numeros.");
 					$("#tracking").focus().select();
-					return false;	
-				}
-
-				//FELIPE: El tracking debe ser de mínimo 21 caracteres.
-				var regex = /^.{21,}$/;
-				if (!regex.test($("#tracking").val())) {
-				  alert("El tracking debe tener por lo menos 21 números");
-				  $("#tracking").focus().select();
 					return false;	
 				}
 			}
@@ -249,7 +233,7 @@
 		</tr>
 		<tr align="left">
 			<td>N&deg; Tracking</td>
-			<td><input type="text" class="form-control" id="tracking" name="tracking" maxlength="100" placeholder=""></td>
+			<td><input type="text" class="form-control" id="tracking" name="tracking" maxlength="100"></td>
 		</tr>
 		<tr class="proveedor_otro">
 			<td>Tienda donde compraste</td>
