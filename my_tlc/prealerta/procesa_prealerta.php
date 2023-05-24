@@ -46,29 +46,29 @@
 	}else{
 		$consignatario=$_POST['consignatario'];
 	}
-	// Se ingresan los datos del paquete
 	
+	// Se ingresan los datos del paquete
 	if ($currier==2) {
+		$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
 
-		if(substr($tracking, 0, 13)=='4203312219149'){
-			$tracking=$tracking;
-			
-		}
-		else if(substr($tracking, 0, 12)=='420331221914'){
-			$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		}
-		else if(substr($tracking, 0, 9)=='42033122'){
-			$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
-		}
-		else if($tracking.substring(0, 8)=='42033122'){
-			console.log("42033122");
-		}
-		else{
-			die("Ocurrio un problema con el numero de tracking ingresado");
-		}
-
-		//var_dump();
-		exit;
+		// if(substr($tracking, 0, 13)=='4203312219149'){
+		// 	$tracking=$tracking;
+		// }
+		// else if(substr($tracking, 0, 12)=='420331221914'){
+		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
+		// }
+		// else if(substr($tracking, 0, 9)=='420331229'){
+		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
+		// }
+		// else if(substr($tracking, 0, 8)=='42033122'){
+		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
+		// }
+		// else if(strlen($tracking)==22){
+		// 	$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
+		// }
+		// else{
+		// 	die("Ocurrio un problema con el numero de tracking ingresado");
+		// }
 	}
 
 	// se crea el numero de tracking de garve shop
