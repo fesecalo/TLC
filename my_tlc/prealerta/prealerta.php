@@ -110,10 +110,10 @@
 					return false;	
 				}
 
-				//FELIPE: El tracking debe ser de mínimo 22 caracteres.
-				var regex = /^.{22,}$/;
+				//FELIPE: El tracking debe ser de mínimo 21 caracteres.
+				var regex = /^.{21,}$/;
 				if (!regex.test($("#tracking").val())) {
-				  alert("El tracking debe tener por lo menos 22 números");
+				  alert("El tracking debe tener por lo menos 21 números");
 				  $("#tracking").focus().select();
 					return false;	
 				}

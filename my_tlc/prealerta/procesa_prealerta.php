@@ -46,10 +46,10 @@
 	}else{
 		$consignatario=$_POST['consignatario'];
 	}
-	
+
 	// Se ingresan los datos del paquete
 	if ($currier==2) {
-		$tracking='4203312219149'.substr($tracking, strlen($tracking) - 22);
+		$tracking='4203312219149'.substr($tracking, strlen($tracking) - 21);
 
 		// if(substr($tracking, 0, 13)=='4203312219149'){
 		// 	$tracking=$tracking;
